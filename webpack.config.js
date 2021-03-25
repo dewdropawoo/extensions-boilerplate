@@ -18,17 +18,17 @@ module.exports = (_env,argv)=> {
     VideoOverlay:{
       path:"./src/VideoOverlay.js",
       outputHtml:"video_overlay.html",
-      build:true
+      build:false
     },
     Panel:{
       path:"./src/Panel.js",
       outputHtml:"panel.html",
-      build:true
+      build:false
     },
     Config:{
       path:"./src/Config.js",
       outputHtml:"config.html",
-      build:true
+      build:false
     },
     LiveConfig:{
       path:"./src/LiveConfig.js",
@@ -38,7 +38,7 @@ module.exports = (_env,argv)=> {
     Mobile:{
       path:"./src/Mobile.js",
       outputHtml:"mobile.html",
-      build:true
+      build:false
     }
   }
 

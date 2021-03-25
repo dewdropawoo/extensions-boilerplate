@@ -6,5 +6,6 @@ module.exports = {
           node:"current"
         }
       }]
-    ]
+    ],
+    plugins: ["@babel/plugin-proposal-class-properties"]
   }
